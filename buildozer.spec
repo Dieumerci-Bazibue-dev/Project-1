@@ -4,7 +4,7 @@
 title = Shadow
 
 # (str) Package name
-package.name = myapp
+package.name = shadsoft
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.shadsoftstudio
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy,kivymd
-requirements = python3,kivy
+requirements = python3,kivy,kivymd,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
